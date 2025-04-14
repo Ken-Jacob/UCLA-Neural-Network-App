@@ -1,0 +1,43 @@
+2025-04-13 20:33:01,841 - data_preprocessing - ERROR - Error in preprocessing data
+Traceback (most recent call last):
+  File "C:\Users\jacob\Algonquin\Sem 2\Machine learning\Final Project\Neural Networks Solution\data_preprocessing.py", line 11, in load_and_preprocess_data
+    X = df.drop(columns=['Chance of Admit '])
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\frame.py", line 5581, in drop
+    return super().drop(
+           ~~~~~~~~~~~~^
+        labels=labels,
+        ^^^^^^^^^^^^^^
+    ...<5 lines>...
+        errors=errors,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 4788, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\generic.py", line 4830, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+  File "C:\Users\jacob\AppData\Roaming\Python\Python313\site-packages\pandas\core\indexes\base.py", line 7070, in drop
+    raise KeyError(f"{labels[mask].tolist()} not found in axis")
+KeyError: "['Chance of Admit '] not found in axis"
+2025-04-13 20:44:50,168 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:44:50,263 - model_training - INFO - Model trained successfully.
+2025-04-13 20:44:56,974 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:44:57,076 - model_training - INFO - Model trained successfully.
+2025-04-13 20:44:58,065 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:44:58,164 - model_training - INFO - Model trained successfully.
+2025-04-13 20:44:59,118 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:44:59,234 - model_training - INFO - Model trained successfully.
+2025-04-13 20:45:01,948 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:45:02,155 - model_training - INFO - Model trained successfully.
+2025-04-13 20:45:05,494 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:45:05,695 - model_training - INFO - Model trained successfully.
+2025-04-13 20:45:06,355 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:45:06,548 - model_training - INFO - Model trained successfully.
+2025-04-13 20:45:10,302 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:45:10,501 - model_training - INFO - Model trained successfully.
+2025-04-13 20:45:12,906 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:45:13,118 - model_training - INFO - Model trained successfully.
+2025-04-13 20:45:14,441 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:45:14,623 - model_training - INFO - Model trained successfully.
+2025-04-13 20:51:49,551 - data_preprocessing - INFO - Data loaded and preprocessed successfully.
+2025-04-13 20:51:49,648 - model_training - INFO - Model trained successfully.
