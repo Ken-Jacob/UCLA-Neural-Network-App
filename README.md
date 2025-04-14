@@ -45,7 +45,7 @@ streamlit run app.py
 
 ## ☁️ Deployment
 
-You can deploy this app on https://realestateapp0.streamlit.app/
+You can deploy this app on https://ken-jacob-ucla-neural-network-app-app-ybvcgs.streamlit.app/
 ---
 
 ## 🧑‍💻 Author
